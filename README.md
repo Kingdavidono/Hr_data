@@ -144,18 +144,16 @@ ORDER BY age_group;
 - Age group by gender
 
 ``` SQL
-SELECT age_group,
-gender,
+SELECT age_group, gender,
 count(*) AS count
 FROM
 (SELECT 
- CASE
-  WHEN age <= 21 AND age <= 30 THEN '21 to 30'
-  WHEN age <= 31 AND age <= 40 THEN '31 to 40'
-  WHEN age <= 41 AND age <= 50 THEN '41 to 50'
+CASE 
+  WHEN age >= 21 AND age <= 30 THEN '21 to 30'
+  WHEN age >= 31 AND age <= 40 THEN '31 to 40'
+  WHEN age >= 41 AND age <= 50 THEN '41 to 50'
   ELSE '50+'
-  END AS age_group,
-  gender
+  END AS age_group, gender
  FROM hr_data
  WHERE new_termdate IS NULL
  ) AS subquery
