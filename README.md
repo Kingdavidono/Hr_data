@@ -56,7 +56,7 @@ FROM hr_data;
 The termdate was imported as nvarchar(50). This column contains termination dates, hence it needs to be converted to the date format.
 
 ####	Update date/time to date
-![format-termdate-1](https://github.com/kahethu/data/assets/27964625/463e86e0-8b1a-47c8-943e-f125bad98706)
+![format-termdate-1](assets/images/datetime_to_date.jpg)
 
  Update termdate date/time to date
 - 1) convert dates to yyyy-MM-dd
@@ -116,6 +116,8 @@ SELECT
  MAX(age) AS OLDEST
 FROM hr_data;
 ```
+
+![age_distribution](assets/images/age_distribution.PNG)
 
 - age group count
 
