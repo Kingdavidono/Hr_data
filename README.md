@@ -1,9 +1,9 @@
 # HR DATA ANALYSIS - SQL SERVER 2022 / POWER BI
 This project dives deep into the realm of data analysis using SQL and Power BI to uncover important human resource insights that can greatly benefit the company.
-Featuring eye-catching dashboards offer crucial HR metrics like employee turnover, diversity, recruitment efficacy and performance evaluations. These help HR professionals make informed decisions and strategic workforce planning.
+Featuring eye-catching dashboards which offer crucial HR metrics like employee turnover, diversity, recruitment efficacy and performance evaluations. These help HR professionals make informed decisions and strategic workforce planning.
 
 ## Source Data:
-The source data contained Human Resource 22000 records from 2000 to 2020. This is included in the repository.
+The source data contained Human Resource 22214 records from 2000 to 2020. This is included in the repository.
 
 ## Data Cleaning & Analysis:
 This was done on SQL server 2022 involving
@@ -13,7 +13,6 @@ This was done on SQL server 2022 involving
 
 ## Data Visualization:
 Power BI Desktop
-In a corporate setting, results can be shared online on www.powerbi.com 
 
 ![powerbi-1](https://github.com/kahethu/hr_data/assets/27964625/0d485a7e-3ddf-4a20-b158-b60fd8226f55)
 
