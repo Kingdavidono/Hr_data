@@ -14,9 +14,9 @@ This was done on SQL server 2022 involving
 ## Data Visualization:
 Power BI Desktop
 
-![powerbi-1](HR_Report_dashboard.PNG)
+![powerbi-1](assets/images/HR_Report_dashboard.PNG)
 
-![powerbi-2](HR_Report2_dashboard.PNG)
+![powerbi-2](assets/images/HR_Report2_dashboard.PNG)
 
 
 
