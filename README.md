@@ -175,6 +175,8 @@ GROUP BY gender
 ORDER BY gender ASC;
 ```
 
+![gender_breakdown](assets/images/gender_breakdown.PNG)
+
 #### 3) How does gender vary across departments and job titles?
 
 ``` SQL
