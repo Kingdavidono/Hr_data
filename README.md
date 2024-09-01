@@ -189,6 +189,9 @@ WHERE new_termdate IS NULL
 GROUP BY department, gender,
 ORDER BY department, gender ASC;
 ```
+
+![gender_department](assets/images/gender_department.PNG)
+
 - job titles
 
 ``` SQL
@@ -201,6 +204,8 @@ WHERE new_termdate IS NULL
 GROUP BY department, jobtitle, gender
 ORDER BY department, jobtitle, gender ASC;
 ```
+
+![gender_jobtitles](assets/images/gender_jobtitles.PNG)
 
 #### 4) What's the race distribution in the company?
 
