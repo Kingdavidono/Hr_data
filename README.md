@@ -8,6 +8,7 @@ The source data contained Human Resource 22214 records from 2000 to 2020. This i
 ## Data Cleaning & Analysis:
 This was done on SQL server 2022 involving
 - Data loading & inspection
+- Data Transformation
 - Handling missing values
 - Data cleaning and analysis
 
