@@ -317,6 +317,8 @@ SELECT
  ORDER BY count DESC;
 ```
 
+![jobtitles_distribution](assets/images/jobtitles_distribution.PNG)
+
 #### 11) How have employee hire counts varied over time?
 - calculate hires
 - calculate terminations
@@ -343,5 +345,5 @@ SELECT
 ORDER BY percent_hire_change ASC;
 ```
 
-
+![emp_hire_rate](assets/images/emp_hire_rate.PNG)
 
