@@ -220,6 +220,8 @@ GROUP BY race
 ORDER BY count DESC;
 ```
 
+![race_distribution](assets/images/race_distribution.PNG)
+
 #### 5) What's the average length of employment in the company?
 
 ``` SQL
@@ -229,6 +231,8 @@ FROM hr_data
 WHERE new_termdate IS NOT NULL AND new_termdate <= GETDATE();
 
 ```
+
+![avg_len_emp](assets/images/avg_len_emp.PNG)
 
 #### 6) Which department has the highest turnover rate?
 - get total count
@@ -254,6 +258,8 @@ SELECT
 	) AS subquery
 ORDER BY turnover_rate DESC;
 ```
+
+![turnover_rate](assets/images/turnover_rate.PNG)
 
 #### 7) What is the tenure distribution for each department?
 
