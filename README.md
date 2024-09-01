@@ -276,7 +276,7 @@ GROUP BY
     department;
 
 ```
-
+![tenure_distribution](assets/images/tenure_distribution.PNG)
 
 #### 8) How many employees work remotely for each department?
 
@@ -289,6 +289,8 @@ WHERE new_termdate IS NULL
 GROUP BY location;
 ```
 
+![remote_workers](assets/images/remote_workers.PNG)
+
 #### 9) What's the distribution of employees across different states?
 
 ``` SQL
@@ -300,6 +302,8 @@ WHERE new_termdate IS NULL
 GROUP BY location_state
 ORDER BY count DESC;
 ```
+
+![emp_across_states](assets/images/emp_across_states.PNG)
 
 #### 10) How are job titles distributed in the company?
 
